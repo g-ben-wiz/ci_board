@@ -1,0 +1,6 @@
+Basic imageboard in codeigniter. 
+
+This sample configuration uses postgres. You may want to change how things are set up in config/database.php and in ci_board.sql, particularly the passwords from 'mypassword'. In addition, it may be beneficial to change $config['encryption_key'] in config/config.php. 
+Lastly, there have been no css styles applied to the class 'redir_field', the honeypot textfields. You may wish to change the visibility to 'hidden'. 
+
+ci_board is a basic CRUD & MVC system for users, posts, and categories that I did as a learning project.
